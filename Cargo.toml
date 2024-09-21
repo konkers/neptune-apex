@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = ["apex-cli", "neptune-apex"]
+
+
+[workspace.dependencies]
+reqwless = { git = "https://github.com/konkers/reqwless.git", branch = "pr/clone_method" }
